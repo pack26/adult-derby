@@ -35,7 +35,7 @@
           <div class="flex-item flex-column">
             <h2 class="add-top-margin-small">February 24th, 2024</h2>
             <p class="text">
-              Cub Scout Pack 26 in Dunellen will be putting on the first annual Adult Pinewood Derby Fundraiser! There will be two racing leagues - <strong>Strict Cub Scout Rules</strong> and <strong>Relaxed Rules</strong>. Advance Tickets are $25; Entry at the door is $35.
+              Cub Scout Pack 26 in Dunellen will be putting on the first annual Adult Pinewood Derby Fundraiser! We will be racing with <strong>Relaxed Rules</strong> - including no weight limit. Advance Tickets are $25; Entry at the door is $35.
             </p>
             <p class="text">
               There will be food and snacks available (and the American Legion Bar is downstairs).  There will be voting for car cateogires including <em>Most Original</em> and <em>Best Execution</em>. Racers <strong>need not be present to win</strong>.
@@ -76,7 +76,7 @@
               <li><a href="#registration">Registration</a></li>
               <li><a href="#date-time-location">Date, Time, and Location</a></li>
               <li><a href="#voting-categories">Voting Categories</a></li>
-              <li><a href="#entry-rules">Racing Leagues &amp; Rules</a></li>
+              <li><a href="#entry-rules">Racing League Rules</a></li>
               <li><a href="#derby-supplies">Derby Supplies</a></li>
             </ul>
           </div>
@@ -105,12 +105,32 @@
             <hr>
             <p class="text">
               <strong>February 24th, 2024, 6 PM</strong> <br />
-              <a href="#">Click to Add to Calendar</a>
+              <a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Example Corp.//CalDAV Client//EN
+BEGIN:VEVENT
+UID:20240224T180000-123456789@example.com
+DTSTAMP:20240120T000000Z
+DTSTART:20240224T180000
+DTEND:20240224T190000
+SUMMARY:Event Title
+LOCATION:American Legion Post 119, 137 New Market Rd, Dunellen, NJ 08812
+DESCRIPTION:Event description goes here.
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR" download="event.ics">Add to Calendar</a>
             </p>
             <p class="text">
-              American Legion Post 119<br />
+              Upstairs at the <br />
+              <a href="https://www.google.com/maps?q=137+New+Market+Rd,+Dunellen,+NJ+08812" target="_blank">American Legion Post 119<br />
               137 New Market Rd<br />
-              Dunellen, NJ 08812
+              Dunellen, NJ 08812</a>
             </p>
           </div>
         </div>
@@ -145,7 +165,7 @@
             <img class="image max-width-400" style="margin:15px auto" src="img/most-technical.jpg">
             <p class="image-caption"><strong>Most Technical</strong></p>
             <p class="text">
-              <strong>Most Technical</strong> will go to the craftsperson who best shows off his or her skills with the power or hand tools of the woodworking trade. 
+              <strong>Most Technical</strong> will go to the craftsperson who best shows off his or her skills with the power or hand tools of their trade. 
             </p>
           </div>
         </div>
@@ -155,46 +175,61 @@
         <!--Rules-->
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <h2 id="entry-rules">Racing Leagues &amp; Rules</h2>
+            <h2 id="entry-rules">Racing League Rules</h2>
             <hr>
-            <p class="text">
-              Pack 26 Rules
-            </p>
             <ol>
               <li>Racers need not be present to win.</li>
-            </ol>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h3 id="text-only">Strict BSA League Rules</h3>
-            <hr>
-            <p class="text">
-              These rules are the official lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-            </p>
-            <ol>
-              <li>lorem ipsum </li>
+              <li>We reserve the right not to race your car if we feel it may damage the track or interfere with other cars.</li>
+              <li>Standard Width is enforced: no more than 2 3/4" including wheels</li>
+              <li>Height limit is 3" including wheels.  Exceeding this may mean your car will not fit under the finish line.</li>
+              <li>The standard length is 7". You <em>may</em> exceed this, but we do not guarantee your car will fit down the curve of the track.</li>
+              <li>There is no requirement on material, weight, wheels, or axles.</li>
+              <li>Cars may not use propellants, explosives, or similar.</li>
+              <li>Cars that interfere with/attack other cars are not elligible to be raced for the podium. (But may participate in an exhibition.)</li>
             </ol>
           </div>
         </div>
         <!--End Rules-->
         <!-------------------------------------------------------------------------------------------->
         <!--Start derby-supplies-->
-        <div class="flex-row">
+        <div class="flex-row" id="derby-supplies">
           <div class="flex-item flex-column">
             <h2 id="derby-supplies">Derby Supplies</h2>
             <hr>
             <p class="text">
               If you don't have your old Pinewood Derby car laying around, and you need or want to build a new one, here are some places to find supplies:
             </p>
-            <div class="control-group">
-              <a class="custom-button custom-button-primary" href="https://www.scoutshop.org/official-pinewood-derby-car-kit-17006.html" target="_blank">Online Scout Shop</a> The Official Boy Scout Scout Shop has the official kit for a very reasonable price.
+            <div class="flex-row">
+              <div class="flex-item flex-column">
+                <a class="custom-button custom-button-primary" href="https://www.scoutshop.org/official-pinewood-derby-car-kit-17006.html" target="_blank">Online Scout Shop</a>
+              </div>
+              <div class="flex-item flex-column">
+                The Official Boy Scout Scout Shop has the official kit for a very reasonable price.
+              </div>
             </div>
-            <div class="control-group">
-              <a class="custom-button custom-button-primary" href="https://www.ppcscoutshop.org/" target="_blank">In-Person Scout Shop</a> There are Boy Scout Shops in Cedar Knolls and Mountainside
+            <div class="flex-row">
+              <div class="flex-item flex-column">
+                <a class="custom-button custom-button-primary" href="https://www.ppcscoutshop.org/" target="_blank">In-Person Scout Shop</a>
+              </div>
+              <div class="flex-item flex-column">
+                There are Boy Scout Shops in Cedar Knolls and Mountainside - check their hours and we suggest calling to confirm availability before going.
+              </div>
             </div>
-            <div class="control-group">
-              <a class="custom-button custom-button-info" href="http://www.amazon.com/Scout-Derby-Grand-Prix-Pinewood/dp/B00JI715QO/"  target="_blank">Amazon</a> Amazon sells a bunch of Pinewood Derby kits and Supplies
+            <div class="flex-row">
+              <div class="flex-item flex-column">
+                <a class="custom-button custom-button-info" href="http://www.amazon.com/Scout-Derby-Grand-Prix-Pinewood/dp/B00JI715QO/"  target="_blank">Amazon</a> 
+              </div>
+              <div class="flex-item flex-column">
+                Amazon sells a bunch of Pinewood Derby kits and Supplies
+              </div>
+            </div>
+            <div class="flex-row">
+              <div class="flex-item flex-column">
+                <a class="custom-button custom-button-info" href="https://en.wikibooks.org/wiki/How_To_Build_a_Pinewood_Derby_Car/Dimensions_and_specifications"  target="_blank">Dimensions</a> 
+              </div>
+              <div class="flex-item flex-column">
+                Precise dimensions on the car are available.
+              </div>
             </div>
           </div>
         </div>
