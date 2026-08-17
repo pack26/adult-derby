@@ -40,3 +40,7 @@
   display: none;
   color: #007bff;
 }
+
+.verticalLine {
+    border-left: thick solid;
+}
