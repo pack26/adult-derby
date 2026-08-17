@@ -22,7 +22,7 @@
     }
     .flyer {
       display: block;
-      max-width: 100%;
+      max-width: 80%;
       height: auto;
       margin: 0 auto;
     }
@@ -30,77 +30,97 @@
 </head>
 
 <body>
+  <!-------------------------------------------------------------------------->
+  <!--Start Header-->
   <div class="menu-container"></div>
+  <!--End Header-->
+  <!-------------------------------------------------------------------------->
   <div class="content-container">
-    <!-------------------------------------------------------------------------------------------->
-    <!--Start Header-->
+    <!------------------------------------------------------------------------>
+    <!--Start Image Banner-->
     <div class="banner">
       <div class="banner-table flex-column">
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <img class="flyer" src="img/regatta.jpeg" alt="Cub Scout Pack 26 Rain Gutter Regatta flyer - Wednesday June 24 at 6:30 PM, Scout Hut on Pulaski Street, Dunellen NJ">
+            <!--Change image here fore the flyer-->
+            <img class="flyer" src="img/cubscouts.png" alt="Cub Scout Pack 26, Dunellen NJ">
           </div>
         </div>
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <h2 class="add-top-margin-small">Rain Gutter Regatta &mdash; Wednesday, June 24th, 6:30 PM</h2>
-            <p class="text">
-              Cub Scout Pack 26 in Dunellen is kicking off our summer program with a <strong>Rain Gutter Regatta</strong> at the Scout Hut on Pulaski Street.  Scouts build their own little sailboats and race them down a water-filled rain gutter by blowing on the sails &mdash; it's a Cub Scout classic.
-            </p>
-            <p class="text">
-              Please bring friends and siblings of all ages.  No commitment, no cost &mdash; just come hang out, race some boats, and learn what Cub Scouts is all about.
-            </p>
+            <!--Description of image info-->
+            <h1 class="add-top-margin-small">Cub Scout Pack 26</h1>
+            <h2 class="add-top-margin-small">Dunellen, NJ 08812</h2>
           </div>
         </div>
       </div>
     </div>
-    <!--End Header-->
-    <!-------------------------------------------------------------------------------------------->
+    <!--End Image Banner-->
+    <!------------------------------------------------------------------------>
+    <!--Start Content Section-->
     <div class="content">
       <div class="content-table flex-column">
         <!-------------------------------------------------------------------------------------------->
         <!--Date / Time / Location-->
         <hr>
         <div class="flex-row">
+          <h2 id="date-time-location">Date, Time, &amp; Location</h2>
+          <p class="text">
+            <strong>Stay tuned for future events! Events are held primarily atthe Scout Hut. Some events are also hosted at the American Legion Post 119.</strong> <br />
+          </p>
           <div class="flex-item flex-column">
-            <h2 id="date-time-location">Date, Time, &amp; Location</h2>
-            <p class="text">
-              <strong>Wednesday, June 24th, 2026 at 6:30 PM</strong> <br />
-              <a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0APRODID:-//Pack%2026//Rain%20Gutter%20Regatta//EN%0ABEGIN:VEVENT%0AUID:20260624T183000-regatta@dunellenpack26%0ADTSTAMP:20260521T000000Z%0ADTSTART:20260624T183000%0ADTEND:20260624T200000%0ASUMMARY:Pack%2026%20Rain%20Gutter%20Regatta%0ALOCATION:Scout%20Hut,%20Pulaski%20Street,%20Dunellen,%20NJ%0ADESCRIPTION:Cub%20Scout%20Pack%2026%20Rain%20Gutter%20Regatta%20-%20a%20recruiting%20event.%20Bring%20your%20friends,%20no%20commitment,%20come%20learn%20about%20Cub%20Scouts.%0ASTATUS:CONFIRMED%0ASEQUENCE:0%0ABEGIN:VALARM%0ATRIGGER:-PT15M%0ADESCRIPTION:Reminder%0AACTION:DISPLAY%0AEND:VALARM%0AEND:VEVENT%0AEND:VCALENDAR" download="rain-gutter-regatta.ics">Add to Calendar</a>
-            </p>
             <p class="text">
               <a href="https://www.google.com/maps?q=Scout+Hut+Pulaski+Street+Dunellen+NJ" target="_blank">Scout Hut<br />
               Pulaski Street<br />
-              Dunellen, NJ</a>
+              Dunellen, NJ 08812</a>
+            </p>
+          </div>
+          <div class="verticalLine" />
+          <div class="flex-item flex-column">
+            <p>
+              <a href="https://maps.app.goo.gl/buxUAa5FQNPjUak6A" target="_blank">American Legion Post 119<br />
+              137 New Market Road<br />
+              Dunellen, NJ 08812</a>
             </p>
           </div>
         </div>
         <!--End Date/Time-->
-        <!-------------------------------------------------------------------------------------------->
-        <hr>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <img class="image" style="width: 120px;" src="img/cubscouts.png">
-          </div>
-          <div class="flex-item flex-column">
-            <p class="text text-large">
-              Pack 26<br />
-              Dunellen, NJ</br />
-            </p>
-          </div>
+        <!-------------------------------------------------------------------->
+      </div>
+    </div>
+    <!--End Content Section-->
+    <!------------------------------------------------------------------------>
+    <!--Start Footer Section-->
+    <hr>
+    <div class="content-table flex-column">
+      <div class="flex-row">
+        <div class="flex-item flex-column">
+          <img class="image" style="width: 120px;" src="img/cubscouts.png">
         </div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text text-large">
-              Questions? Contact: <a href="mailto:dunellencubpack26@gmail.com">dunellencubpack26@gmail.com</a>
-            </p>
-          </div>
+        <div class="flex-item flex-column">
+          <p class="text text-large">
+            Pack 26<br />
+            Dunellen, NJ</br />
+          </p>
         </div>
-
-        <!-------------------------------------------------------------------------------------------->
+      </div>
+      <div class="flex-row">
+        <div class="flex-item flex-column">
+          <p class="text text-large">
+            Questions? Contact: <a href="mailto:dunellencubpack26@gmail.com">dunellencubpack26@gmail.com</a>
+          </p>
+          <!--Change Values here as necessary for contacts.-->
+          <p class="text text-large">
+            Cubmaster: Andra McDonough 908-405-7842
+            <br />
+            Committee Chairperson: Maria Kowalik 732-208-5496
+          </p>
+        </div>
       </div>
     </div>
     <div class="footer-container"></div>
+    <!--End Footer Section-->
+    <!------------------------------------------------------------------------>
   </div>
 </body>
 
